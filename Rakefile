@@ -28,3 +28,9 @@ namespace :app do
     system "bundle exec rerun -b rackup"
   end
 end
+
+desc "Run rspec"
+task :spec do
+  # TODO: Support `SPEC=... SPEC_OPTS=... rake spec` ?
+  system "bundle exec rspec"
+end
