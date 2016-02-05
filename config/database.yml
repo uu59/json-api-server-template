@@ -1,0 +1,6 @@
+adapter: postgresql
+encoding: utf8
+database: test
+host: 172.17.0.3
+username: postgres
+password: pass
